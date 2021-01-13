@@ -1,0 +1,98 @@
+:root {
+    --purple: #7132ac;
+  }
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+#entete {
+    display: flex;
+    flex-direction: column;
+    background-color:var(--purple); 
+    color: white;
+}
+
+
+#corp {
+    display: flex;
+    flex-direction: line;
+}
+
+#presentation {
+    display: flex;
+    flex-direction: column;
+    background-color: #0fa2a6; 
+}
+
+#contenu_cv {
+    display: flex;
+    flex-direction: column;
+}
+
+
+#contact_info {
+    color: white;
+ } 
+#contact_info > li{
+    width: 110%;
+    margin-left: -11%;
+ } 
+#contact_info {
+    color: white;
+ } 
+
+#skills {
+    color: white;
+    border: 2px solid rgb(189, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+  }
+
+#skills > li {
+    margin-top: 1rem;
+    color: blue;
+    text-align: justify;
+  }
+  
+
+#personality {
+    color: white;
+}
+
+
+#introduction {
+
+}
+
+#work_experiences {
+
+}
+
+#education {
+
+}
+
+#language {
+
+}
+
+#hobbies {
+
+}  
+
+li {
+    list-style-type: none;
+    /* border: 2px solid purple; */
+
+}
+
+.progress_bar {
+    display: flex;
+    justify-content: space-between;
+    width: 110%;
+    margin-left: -11%;
+}
